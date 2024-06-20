@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7E8E9CE2C241E9300078393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8E9CD2C241E9300078393 /* AppDelegate.swift */; };
+		F7E8E9D02C241E9300078393 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8E9CF2C241E9300078393 /* SceneDelegate.swift */; };
+		F7E8E9D22C241E9300078393 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8E9D12C241E9300078393 /* WeatherVC.swift */; };
+		F7E8E9D72C241E9500078393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E8E9D62C241E9500078393 /* Assets.xcassets */; };
+		F7E8E9DA2C241E9500078393 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7E8E9D92C241E9500078393 /* Base */; };
+		F7E8E9E52C241E9500078393 /* Bright_Sky_Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8E9E42C241E9500078393 /* Bright_Sky_Weather_AppTests.swift */; };
+		F7E8E9EF2C241E9500078393 /* Bright_Sky_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8E9EE2C241E9500078393 /* Bright_Sky_Weather_AppUITests.swift */; };
+		F7E8E9F12C241E9500078393 /* Bright_Sky_Weather_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8E9F02C241E9500078393 /* Bright_Sky_Weather_AppUITestsLaunchTests.swift */; };
+		F7E8EA052C24205700078393 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA042C24205700078393 /* LocationManager.swift */; };
+		F7E8EA072C24206500078393 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA062C24206500078393 /* IAPManager.swift */; };
+		F7E8EA092C24206F00078393 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA082C24206F00078393 /* WeatherManager.swift */; };
+		F7E8EA0B2C24214500078393 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA0A2C24214500078393 /* SettingsVC.swift */; };
+		F7E8EA0D2C24218E00078393 /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA0C2C24218E00078393 /* TabVC.swift */; };
+		F7E8EA0F2C2423FB00078393 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA0E2C2423FB00078393 /* CurrentWeatherView.swift */; };
+		F7E8EA112C24241900078393 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA102C24241900078393 /* SettingsView.swift */; };
+		F7E8EA132C2424AF00078393 /* UIVIew+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA122C2424AF00078393 /* UIVIew+Ext.swift */; };
+		F7E8EA152C2434B300078393 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA142C2434B300078393 /* WeatherModel.swift */; };
+		F7E8EA172C243DC100078393 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EA162C243DC100078393 /* SettingsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7E8E9E12C241E9500078393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E8E9C22C241E9300078393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E8E9C92C241E9300078393;
+			remoteInfo = "Bright Sky Weather App";
+		};
+		F7E8E9EB2C241E9500078393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7E8E9C22C241E9300078393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7E8E9C92C241E9300078393;
+			remoteInfo = "Bright Sky Weather App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7E8E9CA2C241E9300078393 /* Bright Sky Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bright Sky Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E8E9CD2C241E9300078393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7E8E9CF2C241E9300078393 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7E8E9D12C241E9300078393 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		F7E8E9D62C241E9500078393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E8E9D92C241E9500078393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7E8E9DB2C241E9500078393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E8E9E02C241E9500078393 /* Bright Sky Weather AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bright Sky Weather AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E8E9E42C241E9500078393 /* Bright_Sky_Weather_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bright_Sky_Weather_AppTests.swift; sourceTree = "<group>"; };
+		F7E8E9EA2C241E9500078393 /* Bright Sky Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bright Sky Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E8E9EE2C241E9500078393 /* Bright_Sky_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bright_Sky_Weather_AppUITests.swift; sourceTree = "<group>"; };
+		F7E8E9F02C241E9500078393 /* Bright_Sky_Weather_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bright_Sky_Weather_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7E8EA042C24205700078393 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F7E8EA062C24206500078393 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		F7E8EA082C24206F00078393 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		F7E8EA0A2C24214500078393 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		F7E8EA0C2C24218E00078393 /* TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
+		F7E8EA0E2C2423FB00078393 /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		F7E8EA102C24241900078393 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F7E8EA122C2424AF00078393 /* UIVIew+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Ext.swift"; sourceTree = "<group>"; };
+		F7E8EA142C2434B300078393 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		F7E8EA162C243DC100078393 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewModel.swift; path = "Bright Sky Weather App/ViewModels/SettingsViewModel.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E8E9C72C241E9300078393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8E9DD2C241E9500078393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8E9E72C241E9500078393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E8E9C12C241E9300078393 = {
+			isa = PBXGroup;
+			children = (
+				F7E8EA162C243DC100078393 /* SettingsViewModel.swift */,
+				F7E8E9CC2C241E9300078393 /* Bright Sky Weather App */,
+				F7E8E9E32C241E9500078393 /* Bright Sky Weather AppTests */,
+				F7E8E9ED2C241E9500078393 /* Bright Sky Weather AppUITests */,
+				F7E8E9CB2C241E9300078393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E8E9CB2C241E9300078393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8E9CA2C241E9300078393 /* Bright Sky Weather App.app */,
+				F7E8E9E02C241E9500078393 /* Bright Sky Weather AppTests.xctest */,
+				F7E8E9EA2C241E9500078393 /* Bright Sky Weather AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E8E9CC2C241E9300078393 /* Bright Sky Weather App */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8EA022C24200000078393 /* Application */,
+				F7E8EA002C241FE300078393 /* Controller */,
+				F7E8EA012C241FE800078393 /* Helper */,
+				F7E8E9DB2C241E9500078393 /* Info.plist */,
+				F7E8EA032C24203D00078393 /* Manager */,
+				F7E8E9FF2C241FDB00078393 /* Models */,
+				F7E8E9FE2C241FCF00078393 /* ViewModels */,
+				F7E8E9FD2C241FC600078393 /* Views */,
+			);
+			path = "Bright Sky Weather App";
+			sourceTree = "<group>";
+		};
+		F7E8E9E32C241E9500078393 /* Bright Sky Weather AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8E9E42C241E9500078393 /* Bright_Sky_Weather_AppTests.swift */,
+			);
+			path = "Bright Sky Weather AppTests";
+			sourceTree = "<group>";
+		};
+		F7E8E9ED2C241E9500078393 /* Bright Sky Weather AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8E9EE2C241E9500078393 /* Bright_Sky_Weather_AppUITests.swift */,
+				F7E8E9F02C241E9500078393 /* Bright_Sky_Weather_AppUITestsLaunchTests.swift */,
+			);
+			path = "Bright Sky Weather AppUITests";
+			sourceTree = "<group>";
+		};
+		F7E8E9FD2C241FC600078393 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8EA0E2C2423FB00078393 /* CurrentWeatherView.swift */,
+				F7E8EA102C24241900078393 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7E8E9FE2C241FCF00078393 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F7E8E9FF2C241FDB00078393 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8EA142C2434B300078393 /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7E8EA002C241FE300078393 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8E9D12C241E9300078393 /* WeatherVC.swift */,
+				F7E8EA0A2C24214500078393 /* SettingsVC.swift */,
+				F7E8EA0C2C24218E00078393 /* TabVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7E8EA012C241FE800078393 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8EA122C2424AF00078393 /* UIVIew+Ext.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F7E8EA022C24200000078393 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8E9CD2C241E9300078393 /* AppDelegate.swift */,
+				F7E8E9CF2C241E9300078393 /* SceneDelegate.swift */,
+				F7E8E9D62C241E9500078393 /* Assets.xcassets */,
+				F7E8E9D82C241E9500078393 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F7E8EA032C24203D00078393 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8EA042C24205700078393 /* LocationManager.swift */,
+				F7E8EA062C24206500078393 /* IAPManager.swift */,
+				F7E8EA082C24206F00078393 /* WeatherManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E8E9C92C241E9300078393 /* Bright Sky Weather App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E8E9F42C241E9500078393 /* Build configuration list for PBXNativeTarget "Bright Sky Weather App" */;
+			buildPhases = (
+				F7E8E9C62C241E9300078393 /* Sources */,
+				F7E8E9C72C241E9300078393 /* Frameworks */,
+				F7E8E9C82C241E9300078393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bright Sky Weather App";
+			productName = "Bright Sky Weather App";
+			productReference = F7E8E9CA2C241E9300078393 /* Bright Sky Weather App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E8E9DF2C241E9500078393 /* Bright Sky Weather AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E8E9F72C241E9500078393 /* Build configuration list for PBXNativeTarget "Bright Sky Weather AppTests" */;
+			buildPhases = (
+				F7E8E9DC2C241E9500078393 /* Sources */,
+				F7E8E9DD2C241E9500078393 /* Frameworks */,
+				F7E8E9DE2C241E9500078393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E8E9E22C241E9500078393 /* PBXTargetDependency */,
+			);
+			name = "Bright Sky Weather AppTests";
+			productName = "Bright Sky Weather AppTests";
+			productReference = F7E8E9E02C241E9500078393 /* Bright Sky Weather AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7E8E9E92C241E9500078393 /* Bright Sky Weather AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E8E9FA2C241E9500078393 /* Build configuration list for PBXNativeTarget "Bright Sky Weather AppUITests" */;
+			buildPhases = (
+				F7E8E9E62C241E9500078393 /* Sources */,
+				F7E8E9E72C241E9500078393 /* Frameworks */,
+				F7E8E9E82C241E9500078393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E8E9EC2C241E9500078393 /* PBXTargetDependency */,
+			);
+			name = "Bright Sky Weather AppUITests";
+			productName = "Bright Sky Weather AppUITests";
+			productReference = F7E8E9EA2C241E9500078393 /* Bright Sky Weather AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E8E9C22C241E9300078393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F7E8E9C92C241E9300078393 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F7E8E9DF2C241E9500078393 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F7E8E9C92C241E9300078393;
+					};
+					F7E8E9E92C241E9500078393 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F7E8E9C92C241E9300078393;
+					};
+				};
+			};
+			buildConfigurationList = F7E8E9C52C241E9300078393 /* Build configuration list for PBXProject "Bright Sky Weather App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7E8E9C12C241E9300078393;
+			productRefGroup = F7E8E9CB2C241E9300078393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E8E9C92C241E9300078393 /* Bright Sky Weather App */,
+				F7E8E9DF2C241E9500078393 /* Bright Sky Weather AppTests */,
+				F7E8E9E92C241E9500078393 /* Bright Sky Weather AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E8E9C82C241E9300078393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E8E9D72C241E9500078393 /* Assets.xcassets in Resources */,
+				F7E8E9DA2C241E9500078393 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8E9DE2C241E9500078393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8E9E82C241E9500078393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E8E9C62C241E9300078393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E8EA092C24206F00078393 /* WeatherManager.swift in Sources */,
+				F7E8EA052C24205700078393 /* LocationManager.swift in Sources */,
+				F7E8EA132C2424AF00078393 /* UIVIew+Ext.swift in Sources */,
+				F7E8EA072C24206500078393 /* IAPManager.swift in Sources */,
+				F7E8EA0F2C2423FB00078393 /* CurrentWeatherView.swift in Sources */,
+				F7E8EA172C243DC100078393 /* SettingsViewModel.swift in Sources */,
+				F7E8E9D22C241E9300078393 /* WeatherVC.swift in Sources */,
+				F7E8EA112C24241900078393 /* SettingsView.swift in Sources */,
+				F7E8E9CE2C241E9300078393 /* AppDelegate.swift in Sources */,
+				F7E8E9D02C241E9300078393 /* SceneDelegate.swift in Sources */,
+				F7E8EA0D2C24218E00078393 /* TabVC.swift in Sources */,
+				F7E8EA152C2434B300078393 /* WeatherModel.swift in Sources */,
+				F7E8EA0B2C24214500078393 /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8E9DC2C241E9500078393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E8E9E52C241E9500078393 /* Bright_Sky_Weather_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8E9E62C241E9500078393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E8E9EF2C241E9500078393 /* Bright_Sky_Weather_AppUITests.swift in Sources */,
+				F7E8E9F12C241E9500078393 /* Bright_Sky_Weather_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7E8E9E22C241E9500078393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E8E9C92C241E9300078393 /* Bright Sky Weather App */;
+			targetProxy = F7E8E9E12C241E9500078393 /* PBXContainerItemProxy */;
+		};
+		F7E8E9EC2C241E9500078393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7E8E9C92C241E9300078393 /* Bright Sky Weather App */;
+			targetProxy = F7E8E9EB2C241E9500078393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7E8E9D82C241E9500078393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E8E9D92C241E9500078393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E8E9F22C241E9500078393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7E8E9F32C241E9500078393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E8E9F52C241E9500078393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bright Sky Weather App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightsky.Bright-Sky-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7E8E9F62C241E9500078393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bright Sky Weather App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightsky.Bright-Sky-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7E8E9F82C241E9500078393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightsky.Bright-Sky-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bright Sky Weather App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bright Sky Weather App";
+			};
+			name = Debug;
+		};
+		F7E8E9F92C241E9500078393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightsky.Bright-Sky-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bright Sky Weather App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bright Sky Weather App";
+			};
+			name = Release;
+		};
+		F7E8E9FB2C241E9500078393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightsky.Bright-Sky-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bright Sky Weather App";
+			};
+			name = Debug;
+		};
+		F7E8E9FC2C241E9500078393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightsky.Bright-Sky-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bright Sky Weather App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E8E9C52C241E9300078393 /* Build configuration list for PBXProject "Bright Sky Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E8E9F22C241E9500078393 /* Debug */,
+				F7E8E9F32C241E9500078393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E8E9F42C241E9500078393 /* Build configuration list for PBXNativeTarget "Bright Sky Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E8E9F52C241E9500078393 /* Debug */,
+				F7E8E9F62C241E9500078393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E8E9F72C241E9500078393 /* Build configuration list for PBXNativeTarget "Bright Sky Weather AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E8E9F82C241E9500078393 /* Debug */,
+				F7E8E9F92C241E9500078393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E8E9FA2C241E9500078393 /* Build configuration list for PBXNativeTarget "Bright Sky Weather AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E8E9FB2C241E9500078393 /* Debug */,
+				F7E8E9FC2C241E9500078393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E8E9C22C241E9300078393 /* Project object */;
+}
